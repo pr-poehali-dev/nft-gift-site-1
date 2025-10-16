@@ -48,7 +48,7 @@ const Index = () => {
           </Button>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+        <div className="grid md:grid-cols-2 gap-6 mb-20 max-w-4xl mx-auto">
           <Card className="bg-gradient-to-br from-purple-900/40 to-black border-purple-500/30 p-8 hover:scale-105 transition-transform">
             <div className="flex justify-center mb-6">
               <div className="bg-purple-600/20 p-4 rounded-2xl">
