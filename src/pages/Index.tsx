@@ -77,19 +77,7 @@ const Index = () => {
             </p>
           </Card>
 
-          <Card className="bg-gradient-to-br from-purple-900/40 to-black border-purple-500/30 p-8 hover:scale-105 transition-transform">
-            <div className="flex justify-center mb-6">
-              <div className="bg-purple-600/20 p-4 rounded-2xl">
-                <Icon name="Users" size={48} className="text-purple-400" />
-              </div>
-            </div>
-            <h3 className="text-2xl font-bold font-['Orbitron'] text-white mb-4 text-center">
-              Обменивайся
-            </h3>
-            <p className="text-white/60 text-center">
-              Торгуйте подарками с друзьями и собирайте уникальные коллекции NFT.
-            </p>
-          </Card>
+
         </div>
 
         <Card className="bg-gradient-to-br from-purple-950/60 via-black to-amber-950/20 border-purple-500/50 p-12 relative overflow-hidden">
