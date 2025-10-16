@@ -114,21 +114,10 @@ const Index = () => {
 
       <footer className="border-t border-white/10 bg-black/50 backdrop-blur-sm mt-20">
         <div className="container mx-auto px-6 py-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <p className="text-white/50 text-sm">
               © 2025 NFT Gifts Game. Создано для любителей криптоискусства.
             </p>
-            <div className="flex gap-6">
-              <a href="#" className="text-white/50 hover:text-purple-400 transition-colors">
-                <Icon name="Github" size={20} />
-              </a>
-              <a href="#" className="text-white/50 hover:text-purple-400 transition-colors">
-                <Icon name="Twitter" size={20} />
-              </a>
-              <a href="#" className="text-white/50 hover:text-purple-400 transition-colors">
-                <Icon name="Send" size={20} />
-              </a>
-            </div>
           </div>
         </div>
       </footer>
