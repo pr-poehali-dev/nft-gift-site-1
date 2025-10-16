@@ -31,9 +31,10 @@ const Index = () => {
             size="lg" 
             variant="outline"
             className="border-2 border-amber-500 text-amber-400 hover:bg-amber-500/10 font-['Orbitron'] text-lg px-8 py-6 rounded-2xl transition-all hover:scale-105"
+            onClick={() => window.open('https://t.me/+Vp53AATd4-s1NTk6', '_blank')}
           >
-            <Icon name="Gift" className="mr-2" size={24} />
-            О ПОДАРКАХ
+            <Icon name="Send" className="mr-2" size={24} />
+            НАШ ТГ КАНАЛ
           </Button>
         </div>
 
