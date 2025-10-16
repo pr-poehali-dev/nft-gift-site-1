@@ -9,7 +9,7 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold font-['Orbitron'] bg-gradient-to-r from-purple-400 to-amber-400 bg-clip-text text-transparent">
-              NFT GIFTS GAME
+              NFT GIFTS X
             </h1>
             <div className="flex items-center gap-6">
               <a href="#home" className="text-white/80 hover:text-white transition-colors">
