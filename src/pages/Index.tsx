@@ -31,7 +31,7 @@ const Index = () => {
           <div className="mb-8 relative">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-amber-500 blur-3xl opacity-30"></div>
             <h2 className="text-6xl md:text-7xl font-black font-['Orbitron'] relative bg-gradient-to-r from-purple-400 via-amber-300 to-purple-400 bg-clip-text text-transparent animate-pulse">
-              NFT GIFTS
+              NFT GIFTS X
             </h2>
           </div>
           <p className="text-xl text-white/70 mb-12 max-w-2xl">
