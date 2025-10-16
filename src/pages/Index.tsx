@@ -38,24 +38,14 @@ const Index = () => {
             Получайте эксклюзивные NFT подарки в Telegram. Играйте, собирайте коллекцию и обменивайтесь уникальными цифровыми активами с друзьями.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-['Orbitron'] text-lg px-8 py-6 rounded-2xl shadow-lg shadow-purple-500/50 transition-all hover:scale-105"
-              onClick={() => window.open('https://t.me/your_game_bot', '_blank')}
-            >
-              <Icon name="Gamepad2" className="mr-2" size={24} />
-              ИГРАТЬ
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-amber-500 text-amber-400 hover:bg-amber-500/10 font-['Orbitron'] text-lg px-8 py-6 rounded-2xl transition-all hover:scale-105"
-            >
-              <Icon name="Gift" className="mr-2" size={24} />
-              О ПОДАРКАХ
-            </Button>
-          </div>
+          <Button 
+            size="lg" 
+            variant="outline"
+            className="border-2 border-amber-500 text-amber-400 hover:bg-amber-500/10 font-['Orbitron'] text-lg px-8 py-6 rounded-2xl transition-all hover:scale-105"
+          >
+            <Icon name="Gift" className="mr-2" size={24} />
+            О ПОДАРКАХ
+          </Button>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
@@ -114,23 +104,14 @@ const Index = () => {
               <p className="text-white/70 text-lg mb-6">
                 Присоединяйся к тысячам игроков и открой для себя мир NFT подарков в Telegram. Бесплатно и доступно каждому.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  size="lg" 
-                  className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-['Orbitron'] px-8 rounded-xl shadow-lg shadow-purple-500/50"
-                  onClick={() => window.open('https://t.me/your_game_bot', '_blank')}
-                >
-                  ЗАПУСТИТЬ ИГРУ
-                </Button>
-                <Button 
-                  size="lg" 
-                  variant="outline"
-                  className="border-2 border-white/20 text-white hover:bg-white/10 font-['Orbitron'] px-8 rounded-xl"
-                >
-                  <Icon name="Send" className="mr-2" size={20} />
-                  Telegram
-                </Button>
-              </div>
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="border-2 border-white/20 text-white hover:bg-white/10 font-['Orbitron'] px-8 rounded-xl"
+              >
+                <Icon name="Send" className="mr-2" size={20} />
+                Telegram
+              </Button>
             </div>
             <div className="flex-shrink-0">
               <div className="relative">
