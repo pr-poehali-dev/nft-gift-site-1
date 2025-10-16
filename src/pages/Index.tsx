@@ -108,6 +108,7 @@ const Index = () => {
                 size="lg" 
                 variant="outline"
                 className="border-2 border-white/20 text-white hover:bg-white/10 font-['Orbitron'] px-8 rounded-xl"
+                onClick={() => window.open('https://t.me/+Vp53AATd4-s1NTk6', '_blank')}
               >
                 <Icon name="Send" className="mr-2" size={20} />
                 Telegram
